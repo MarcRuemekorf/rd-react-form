@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { cn } from "../../lib/helpers/utils"
+import { cn } from "../../../lib/helpers/utils"
 
 const Select = ({ className, options, defaultValue, ref, ...props }) => {
   return (

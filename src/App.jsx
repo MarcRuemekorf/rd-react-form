@@ -1,6 +1,6 @@
-import Label from "./components/Label/Label";
-import Input from "./components/Input/Input";
-import Select from "./components/Select/Select";
+import Label from "./components/Form/Label/Label";
+import Input from "./components/Form/Input/Input";
+import Select from "./components/Form/Select/Select";
 
 function App() {
   const selectOptions = [
@@ -19,9 +19,8 @@ function App() {
   ]
   return (
     <div className="App h-screen">
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-        <div className="mx-auto max-w-2xl">
-          <div className="overflow-hidden rounded-lg bg-white shadow">
+      <div className="container">
+      <div className="overflow-hidden rounded-lg bg-white shadow">
             <div className="px-4 py-5 sm:p-6">
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col gap-2">
@@ -32,7 +31,6 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );
